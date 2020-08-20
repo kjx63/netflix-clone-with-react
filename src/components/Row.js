@@ -9,12 +9,12 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
 
   // A snippet of code which runs based on a specific condition
   useEffect(() => {
-    async function fetchData() {
+    const fetchData = async () => {
       const request = await axios.get(fetchUrl);
       // fetchUrl = 'https://api.themoviedb.org/3//discover/tv?api_key=${API_KEY}&with_networks=213',
       setMovies(request.data.results);
       return request;
-    }
+    };
     fetchData();
   }, [fetchUrl]);
 
