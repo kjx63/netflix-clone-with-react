@@ -1,4 +1,4 @@
-## Demo:
+## Live Demo:
 
 https://netflix-clone-with-react.web.app/
 
