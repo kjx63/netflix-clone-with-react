@@ -50,5 +50,3 @@ https://www.youtube.com/watch?v=XtMThy8QKqU&t=1
 
 ## Security:
 
-- https://www.youtube.com/watch?v=f7T48W0cwXM&t=12732s
-- https://youtu.be/f7T48W0cwXM
